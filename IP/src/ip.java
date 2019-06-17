@@ -64,7 +64,7 @@ public class ip {
 								.match().group();
 						estado = 2;
 					} catch (NoSuchElementException e) {
-						System.out.println("Se esperaba una IP v·lida");
+						System.out.println("Se esperaba una IP v√°lida");
 						System.out.println(" ");
 						estado = 0;
 						fin2 = true;
@@ -156,7 +156,7 @@ public class ip {
 
 		System.out.println(" ");
 		System.out.println(" ");
-		System.out.println("**************** DATOS REGISTRADOS ****************");
+		System.out.println("HA FINALIZADO LA INTRODUCCION DE DATOS");
 		System.out.println(" ");
 
 		for (Entry<String, Map<String, Integer>> user : usuariosMap.entrySet()) {
@@ -174,7 +174,7 @@ public class ip {
 			System.out.println("Total de mensajes: " + total2);
 			System.out.println(" ");
 		}
-		System.out.println("****************** FIN DE DATOS *******************");
+		System.out.println("FIN DATOS");
 	}
 }
 }
